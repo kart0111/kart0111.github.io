@@ -1,26 +1,8 @@
 # kart0111.github.io
 Web application
 <h1>Hello</h1>
-<style>
-  #box-container {
-    height: 500px;
-  }
-
-  #box-1 {
-    background-color: dodgerblue;
-    width: 50%;
-    height: 50%;
-  }
-
-  #box-2 {
-    background-color: orangered;
-    width: 50%;
-    height: 50%;
-  }
-</style>
-<body>
-<div id="box-container">
-  <div id="box-1"></div>
-  <div id="box-2"></div>
-</div>
- </body>
+<main>
+ <p>I am Kalyani! I did my post graduation in Biomedical Engineering.  </p>
+  <p>As serior project engineer, work in Automobile Research, certification and homologation.</p>
+ </main>
+.

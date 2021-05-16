@@ -29,3 +29,24 @@ body{
   margin-right: 10px;
 }
  
+
+/*grid formating*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 2px 0px;
+  grid-template-areas:
+    "web_image web_image web_image"
+    "personal_info personal_link personal_link"
+    "personal_info about_me education_skill"
+    "fac projects hobbies_interest";
+}
+.web_image { grid-area: web_image; }
+.personal_info { grid-area: personal_info; }
+.personal_link { grid-area: personal_link; }
+.about_me { grid-area: about_me; }
+.education_skill { grid-area: education_skill; }
+.projects { grid-area: projects; }
+.hobbies_interest { grid-area: hobbies_interest; }
+.fac { grid-area: fac; }

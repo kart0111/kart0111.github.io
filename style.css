@@ -1,0 +1,31 @@
+body{
+  background-color:#E68DA8;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #F3C7D4;
+  height: 4vw;    
+  }
+.logo{
+  width: 2vm;
+  
+  
+  }
+
+
+.flex-items:nth-child(1) {
+  display: block;
+  direction: rtl;
+  align-items:flex-end;
+  }
+
+.box {
+  display: flex;
+  width:300px;
+  direction: ltr; /*left to right direction*/
+  justify-content:space-between; /*end of flex eg. rightend*/
+  margin-right: 10px;
+}
+ 

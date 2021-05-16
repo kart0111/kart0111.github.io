@@ -1,5 +1,5 @@
 body{
-  background-color:#E68DA8;
+  background-color:#C75678;
 }
 
 .flex-container {
@@ -35,16 +35,44 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 2px 0px;
+  gap: 15px 15px;
+  height: 1500px;
   grid-template-areas:
     "web_image web_image web_image"
     "personal_info personal_link personal_link"
     "personal_info about_me education_skill"
     "fac projects hobbies_interest";
 }
-.web_image { grid-area: web_image; }
-.personal_info { grid-area: personal_info; }
+.web_image {
+   grid-area: web_image; 
+   
+}
+
+.web_image>img {
+  object-fit:contain;
+  width: 100%
+}
+
+
+.personal_info { 
+  grid-area: personal_info; 
+  font-size: 12px;;
+  line-height: 0.7;
+  font-family: 'Spectral', serif;
+  
+}
+
+.me{
+  border-radius:50%;
+  width: 200px;
+  height:200px;
+  background-color: #F3C7D4;
+  object-fit: cover;
+}
+
 .personal_link { grid-area: personal_link; }
+
+
 .about_me { grid-area: about_me; }
 .education_skill { grid-area: education_skill; }
 .projects { grid-area: projects; }

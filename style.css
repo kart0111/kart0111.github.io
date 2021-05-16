@@ -59,6 +59,8 @@ body{
   font-size: 12px;;
   line-height: 0.7;
   font-family: 'Spectral', serif;
+ 
+  
   
 }
 
@@ -66,7 +68,6 @@ body{
   border-radius:50%;
   width: 200px;
   height:200px;
-  background-color: #F3C7D4;
   object-fit: cover;
 }
 

@@ -62,9 +62,8 @@ body{
   font-size: 0.8vmax;
   line-height: 0.7;
   font-family: 'Spectral', serif;
+
  
-  
-  
 }
 
 .me{
@@ -73,6 +72,26 @@ body{
   height:12vmax;
   object-fit: cover;
 }
+
+#contact_me{
+  display: inline-block;
+  width: 15vmax;
+  font-size: 1.2vmax;
+  font-weight: bold;
+  line-height:100%;
+  font-family: 'Spectral', serif;
+  align-items: stretch;
+  
+}
+
+.contact_details{ 
+  width: 2vmax;
+  
+  border-radius:50%;
+  object-fit: cover;
+}
+
+
 
 .personal_link { grid-area: personal_link; }
 

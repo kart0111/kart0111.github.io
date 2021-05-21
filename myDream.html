@@ -5,12 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="myDreamStyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap" rel="stylesheet">
-
-
-    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <script src="myDreamScript.js" defer></script>
 </head>
-<header>My Dream FCC Cohort</header>
-<footer><a href= "index.html">home</a></footer>
+<body>
+  <div id="mainContainer">
+    <header id="mainHeader">Know Your Coding Day!</header>
+      <div id="gameContainer">         
+        <section id="gameSection">
+          <article class="gameArticle">How is your coding going on today? You may be lagging on your targets and deadline of project may be on your head. Knowing what is coming your way is the best way to prepare for it. And here comes help! To know how is your coding day today enter your birthdate.</article>
+          <section id="bDayEnter">
+            <p>Enter your birthdate.</p>
+            <input type="date" id="birthDate" value ="2021-01-01" >
+            <p><button class="btn" onclick="yourDayFunction()" >Here you go!</button></p>
+          </section>
+          <p id="messageBox">Good Luck!</p>
+          <img id="imageBox" scr="" />   
+        </section>
+    </div>
+    <footer id="pageFooter">
+      <p><a href= "index.html">Home</a></p>
+      <p class="disclaimer">Disclaimer : This prediction is based on mere mathematical juggling. It is not an astrological prediction.</p>
+    </footer>
+                  
+  </div>
+</body>
+
+</html> 
+
+
+

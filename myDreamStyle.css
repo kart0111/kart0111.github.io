@@ -1,0 +1,143 @@
+/*html5 semantics tags */
+article, aside, figure, footer, header, hgroup, menu, nav, section 
+{ display: block; }
+
+/* light css reset */
+* { margin : 0; padding : 0; }
+h2, h3, h4, h5, p, ul, ol  { margin : 0 20px; padding : .5em 0; }
+
+
+body{
+    font-family: 'Libre Baskerville', serif;
+   
+    background-color: #BAB2B5;
+
+}
+/* =page level container */
+#mainContainer {
+    margin: 0px auto 0px auto;
+    height: 90vmax;
+   justify-content: center;
+   align-items: center;
+    
+	
+}
+
+#mainHeader {
+    margin:0px auto 0px auto;
+    width:100vmax;
+    height:6vmax;
+    position:relative;
+    background-color: #123C69;
+    color: #edc7b7;
+    font-size: 4.5vmax;
+    text-align: center;
+    vertical-align:middle;
+    
+}
+
+
+#gameContainer{
+    margin: 0px auto 0px auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    min-height: 80vmax;
+    width:75vmax;
+  
+
+    
+}
+
+
+#gameSection {
+    margin: 0px;
+    padding: 2vmax;
+    min-height: 75vmax;
+    width: 70vmax;
+    background-color: #eee2dc;
+    justify-content: center;
+   
+  
+    left:25%;
+
+}
+
+.gameArticle{
+    font-size: 1.8vmax;
+    line-height: 2.5vmax;
+    color: #ac3b61;
+    text-align: justify;
+}
+
+
+#bDayEnter{
+    justify-content: center;
+    text-align: center;
+    padding: 3vmax;
+    font-size: 5vh;
+    line-height: 2vmax;
+    color: #123C69;
+    font-weight: bolder;
+}
+
+.btn {
+    border: none;
+    background-color: #123C69;;
+    padding: 1vh;
+    font-size: 2vmax;
+    color: #edc7b7;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 1vh 1vh 1vh 1vh;
+}
+#messageBox{
+    justify-content: center;
+    text-align: center;
+    padding: 3vmax;
+    font-size: 4vh;
+    line-height: 3vmax;
+    color:#ac3b61;
+    background-color: #81b29a;
+    letter-spacing: 0.2v;
+    font-weight:bold
+}
+
+#imageBox{
+    padding-top: 2vmax;
+    justify-content: center;
+    width: 70vmax;
+    height: 25vmax;
+    object-fit:contain;
+    border:blank;
+}
+
+
+ img[scr=""]{display:none;}
+ img[src*="assets"] {
+    display: block;}
+
+
+
+#pageFooter {
+    margin:0px auto 0px auto;
+    width:100vmax;
+    height:10vmax;
+    background-color: #123C69;
+    color: #edc7b7;
+    font-size: 2vmax;
+    text-align: center;
+    line-height: 6vmax;
+    vertical-align:middle;
+}
+
+.disclaimer{
+    background-color: #ac3b61;
+    font-size: 1.5vmax;
+}
+
+
+/* Clear Floated Elements */
+.clearfix:before, .clearfix:after {content: "\0020"; 
+display: block; height: 0; visibility: hidden;}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

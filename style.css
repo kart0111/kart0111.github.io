@@ -99,7 +99,15 @@ body{
 .personal_link { grid-area: personal_link; }
 
 
-.about_me { grid-area: about_me; }
+.about_me { grid-area: about_me;
+  Width:25vw; Height:25vw;
+  Border: 12px solid blue; 
+  Background-color: orange;
+  Border-top-right-radius:5vh 10.6vh;
+  
+  Border-bottom-left-radius:5vh 10.6vh;
+  Box-shadow: 64px 64px 24px 40px rgba(0,0,0,0.4), 20px 20px 50px 10px pink inset;
+}
 .education_skill { grid-area: education_skill; }
 .projects { grid-area: projects; }
 .hobbies_interest { grid-area: hobbies_interest; }

@@ -33,82 +33,153 @@ body{
   justify-content:space-between; /*end of flex eg. rightend*/
   margin-right: 10px;
 }
- 
-
 /*grid formating*/
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 15px 15px;
-  width: 98vmax;
+  grid-template-columns: 0.8fr 1fr 1fr;
+  grid-template-rows: 0.8fr 1fr 1fr 1fr;
+  gap: 25px 15px;
+  
+  width: 100vw;
   height: auto;
+
   grid-template-areas:
     "web_image web_image web_image"
-    "personal_info personal_link personal_link"
     "personal_info about_me education_skill"
-    "fac projects hobbies_interest";
+    "personal_info projects fac"
+    "fun_time hobbies_interest hobbies_interest";
 }
-.web_image {
-   grid-area: web_image; 
-   
-}
+
+.web_image { grid-area: web_image; }
 
 .web_image>img {
   object-fit:contain;
   width: 100%
 }
 
-
 .personal_info { 
-  grid-area: personal_info; 
-  font-size: 0.8vmax;
-  line-height: 0.7;
-  font-family: 'Spectral', serif;
-  align-content: center;
- 
-}
+    grid-area: personal_info;
+    font-size: 0.8vmax;
+    line-height: 0.7;
+    font-family: 'Spectral', serif;
+    align-content: center;
+  }
+  .me{
+      border-radius:50%;
+      width: 12vmax;
+      height:12vmax;
+      object-fit: cover;
+    }
+    
+  #contact_me{
+      display: inline-block;
+      width: 15vmax;
+      font-size: 1.2vmax;
+      font-weight: bold;
+      line-height:100%;
+      font-family: 'Spectral', serif;
+      align-items: stretch;
+      
+    }
+    
+  .contact_details{ 
+      width: 2vmax;
+      
+      border-radius:50%;
+      object-fit: cover;
+    }
 
-.me{
-  border-radius:50%;
-  width: 12vmax;
-  height:12vmax;
-  object-fit: cover;
-}
-
-#contact_me{
-  display: inline-block;
-  width: 15vmax;
-  font-size: 1.2vmax;
-  font-weight: bold;
-  line-height:100%;
-  font-family: 'Spectral', serif;
-  align-items: stretch;
-  
-}
-
-.contact_details{ 
-  width: 2vmax;
-  
-  border-radius:50%;
-  object-fit: cover;
-}
-
-
-
-.personal_link { grid-area: personal_link; }
 
 
 .about_me { grid-area: about_me;
-  Width:25vw; Height:25vw;
-  Border: 12px solid blue; 
-  Background-color: orange;
-  Border-top-right-radius:5vh 10.6vh;
+      Width:25vw; 
+      Height:25vw;
+      
+      //Border: 7px solid #003153; 
+      Background-color: #bcd4e6; 
+      Border-top-right-radius:5vh 10.6vh;
   
-  Border-bottom-left-radius:5vh 10.6vh;
-  Box-shadow: 64px 64px 24px 40px rgba(0,0,0,0.4), 20px 20px 50px 10px pink inset;
+      Border-bottom-left-radius:5vh 10.6vh;
+      Box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4), 50px 50px 60px 10px #203863 inset;
+      }
+
+.education_skill {
+     grid-area: education_skill;
+     Width:25vw; 
+     Height:25vw;
+     
+     //Border: 7px solid #003153; 
+     Background-color: #bcd4e6; 
+     Border-top-left-radius:5vh 10.6vh;
+ 
+     Border-bottom-right-radius:5vh 10.6vh;
+     Box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.4), -50px 50px 60px 10px #203863 inset;
+
+
 }
-.education_skill { grid-area: education_skill; }
-.projects { grid-area: projects; }
-.hobbies_interest { grid-area: hobbies_interest; }
-.fac { grid-area: fac; }
+
+.projects { grid-area: projects;
+  Width:25vw; 
+  Height:25vw;
+  
+  //Border: 7px solid #003153; 
+  Background-color: #bcd4e6; 
+  Border-top-left-radius:5vh 10.6vh;
+
+  Border-bottom-right-radius:5vh 10.6vh;
+  Box-shadow: 5px -5px 5px 1px rgba(0,0,0,0.4), 50px -50px 60px 10px #203863 inset;
+
+
+}
+
+.hobbies_interest { grid-area: hobbies_interest; 
+  Width:60vw; 
+  Height:25vw;
+  
+  //Border: 7px solid #003153; 
+  Background-color: #bcd4e6; 
+  Border-top-right-radius:5vh 10.6vh;
+  Border-top-left-radius:5vh 10.6vh;
+  Border-bottom-right-radius:5vh 10.6vh;
+  Border-bottom-left-radius:5vh 10.6vh;
+  Box-shadow: 5px -5px 5x 1px rgba(0, 0, 0, 0.4), 50px -50px 60px 10px #203863 inset;
+
+
+
+
+}
+
+.fac { grid-area: fac; 
+  Width:25vw; 
+  Height:25vw;
+  
+  //Border: 7px solid #003153; 
+  Background-color: #bcd4e6; 
+  Border-top-right-radius:5vh 10.6vh;
+
+  Border-bottom-left-radius:5vh 10.6vh;
+  Box-shadow: -5px -5px 5px 1px rgba(0,0,0,0.4), -50px -50px 60px 10px #203863 inset;
+
+
+}
+
+
+
+.fun_time { grid-area: fun_time; 
+
+  Width:25vw; 
+  Height:25vw;
+  
+  //Border: 7px solid #003153; 
+  Background-color: #bcd4e6; 
+  Border-top-right-radius:5vh 10.6vh;
+  Border-top-left-radius:5vh 10.6vh;
+  Border-bottom-right-radius:5vh 10.6vh;
+  Border-bottom-left-radius:5vh 10.6vh;
+  Box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.4), 0px 0px 25px 25px #203863 inset;
+
+
+}
+
+
+

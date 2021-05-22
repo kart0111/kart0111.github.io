@@ -122,7 +122,8 @@ body{
     margin:0px auto 0px auto;
     width:100vmax;
     height:10vmax;
-    background-color: #123C69;
+    background-color: #ac3b61;
+    font-weight:bolder;
     color: #edc7b7;
     font-size: 2vmax;
     text-align: center;
@@ -131,7 +132,7 @@ body{
 }
 
 .disclaimer{
-    background-color: #ac3b61;
+    background-color: #123C69;
     font-size: 1.5vmax;
 }
 

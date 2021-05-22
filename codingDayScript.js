@@ -18,7 +18,7 @@ function yourDayFunction() {
   8:{message:"There is nothing wrong & right in coding as long as it works, so pat yourself!", image: "assets/image8.jpg"},
   9:{message:"Save your work. Go out and take fresh air.", image: "assets/image9.jpeg"}
   };
-k="assets/image1.jpg"
+
   document.getElementById("messageBox").innerHTML = output[yourNum].message ;
   document.getElementById("imageBox").src = output[yourNum].image.replace('90x90', '225x225') ;
 }

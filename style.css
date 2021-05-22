@@ -7,7 +7,7 @@ body{
   flex-direction: column;
   background-color: #F3C7D4;
   height: 4vw; 
-  width: 101%;   
+  width: 100vmax;   
   }
 .logo{
   width: 4vmax;
@@ -54,32 +54,36 @@ body{
 
 .web_image>img {
   object-fit:contain;
-  width: 100%
+  width: 100vmax
 }
 
 .personal_info { 
     grid-area: personal_info;
-    font-size: 0.8vmax;
-    line-height: 0.7;
+    font-size: 1.2vmax;
+    font-weight:bolder;
+    line-height: 0.6;
     font-family: 'Spectral', serif;
     align-content: center;
+    padding:3vh;
+    text-align: center;
   }
   .me{
       border-radius:50%;
-      width: 12vmax;
-      height:12vmax;
+      width: 20vmax;
+      height:20vmax;
       object-fit: cover;
     }
     
   #contact_me{
+      
       display: inline-block;
       width: 15vmax;
-      font-size: 1.2vmax;
+      font-size: 1.6vmax;
       font-weight: bold;
-      line-height:100%;
+      line-height:150%;
       font-family: 'Spectral', serif;
       align-items: stretch;
-      
+      text-align: justify;
     }
     
   .contact_details{ 
@@ -94,91 +98,86 @@ body{
 .about_me { grid-area: about_me;
       Width:25vw; 
       Height:25vw;
-      
-      //Border: 7px solid #003153; 
       Background-color: #bcd4e6; 
       Border-top-right-radius:5vh 10.6vh;
-  
       Border-bottom-left-radius:5vh 10.6vh;
       Box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4), 50px 50px 60px 10px #203863 inset;
-      }
+}
 
 .education_skill {
      grid-area: education_skill;
      Width:25vw; 
      Height:25vw;
-     
-     //Border: 7px solid #003153; 
      Background-color: #bcd4e6; 
      Border-top-left-radius:5vh 10.6vh;
- 
      Border-bottom-right-radius:5vh 10.6vh;
      Box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.4), -50px 50px 60px 10px #203863 inset;
-
-
 }
 
 .projects { grid-area: projects;
   Width:25vw; 
   Height:25vw;
-  
-  //Border: 7px solid #003153; 
   Background-color: #bcd4e6; 
   Border-top-left-radius:5vh 10.6vh;
-
   Border-bottom-right-radius:5vh 10.6vh;
   Box-shadow: 5px -5px 5px 1px rgba(0,0,0,0.4), 50px -50px 60px 10px #203863 inset;
-
-
 }
+
 
 .hobbies_interest { grid-area: hobbies_interest; 
   Width:60vw; 
   Height:25vw;
-  
-  //Border: 7px solid #003153; 
   Background-color: #bcd4e6; 
   Border-top-right-radius:5vh 10.6vh;
   Border-top-left-radius:5vh 10.6vh;
   Border-bottom-right-radius:5vh 10.6vh;
   Border-bottom-left-radius:5vh 10.6vh;
-  Box-shadow: 5px -5px 5x 1px rgba(0, 0, 0, 0.4), 50px -50px 60px 10px #203863 inset;
-
-
-
-
+  Box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4), 0px 0px 25px 25px #203863 inset;
 }
 
 .fac { grid-area: fac; 
   Width:25vw; 
   Height:25vw;
-  
-  //Border: 7px solid #003153; 
   Background-color: #bcd4e6; 
   Border-top-right-radius:5vh 10.6vh;
-
   Border-bottom-left-radius:5vh 10.6vh;
   Box-shadow: -5px -5px 5px 1px rgba(0,0,0,0.4), -50px -50px 60px 10px #203863 inset;
-
-
 }
 
 
 
 .fun_time { grid-area: fun_time; 
-
+  padding:2vmax ;
   Width:25vw; 
   Height:25vw;
-  
-  //Border: 7px solid #003153; 
   Background-color: #bcd4e6; 
   Border-top-right-radius:5vh 10.6vh;
   Border-top-left-radius:5vh 10.6vh;
   Border-bottom-right-radius:5vh 10.6vh;
   Border-bottom-left-radius:5vh 10.6vh;
   Box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.4), 0px 0px 25px 25px #203863 inset;
+  text-align: center;
+}
+
+.fun_header{
+  
+  border-radius:1vmax;
+  height: 5vmax;
+  background-color: #e7e3d4;
+  text-align: center;
+  font-size: 4vmax;
+  font-weight: bolder;
+}
 
 
+.coding_day{
+  display: inline;
+  border-radius:1vmax;
+  height: 4vmax;
+  background-color: #F3C7D4;
+  text-align: center;
+  font-size: 2vmax;
+  font-weight: bolder;
 }
 
 

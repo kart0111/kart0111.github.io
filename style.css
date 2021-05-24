@@ -135,6 +135,42 @@ body{
   Box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4), 0px 0px 25px 25px #203863 inset;
 }
 
+.carouselContainer{
+  justify-content: center;
+  margin:auto;  
+  text-align: center;
+}
+
+.hobbyTitle{
+ 
+  font-family: 'Spectral', serif;
+  font-size: 2vw;
+  font-weight: bolder;
+  width:100%;
+  text-align: center;
+}
+
+.imageframe{
+object-fit: fill;
+}
+
+.carouselShow{
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  justify-content: center;
+
+}
+#btnContainer{
+  display: block
+  width 50vw;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+
 .fac { grid-area: fac; 
   Width:25vw; 
   Height:25vw;
@@ -149,7 +185,7 @@ body{
 .fun_time { grid-area: fun_time; 
   padding:2vmax ;
   Width:25vw; 
-  Height:25vw;
+  Height:21vw;
   Background-color: #bcd4e6; 
   Border-top-right-radius:5vh 10.6vh;
   Border-top-left-radius:5vh 10.6vh;
@@ -161,11 +197,11 @@ body{
 
 .fun_header{
   
-  border-radius:1vmax;
-  height: 5vmax;
-  background-color: #e7e3d4;
+  border-radius:1vw;
+  background-color: #bcd4e6;
+  height: 5vW;
   text-align: center;
-  font-size: 4vmax;
+  font-size: 4vw;
   font-weight: bolder;
 }
 
@@ -173,12 +209,14 @@ body{
 .coding_day{
   display: inline;
   border-radius:1vmax;
-  height: 4vmax;
+  height: 4vw;
   background-color: #F3C7D4;
   text-align: center;
-  font-size: 2vmax;
+  font-size: 2vw;
   font-weight: bolder;
 }
+
+
 
 
 

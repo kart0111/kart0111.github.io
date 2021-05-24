@@ -93,12 +93,20 @@ body{
       object-fit: cover;
     }
 
+.icons{
+
+  padding: 5vw;
+  width: 15vw;
+  height: 15vw;
+  text-align: center;
+}
+
 
 
 .about_me { grid-area: about_me;
       Width:25vw; 
       Height:25vw;
-      Background-color: #bcd4e6; 
+      Background-color: #7da7c7; 
       Border-top-right-radius:5vh 10.6vh;
       Border-bottom-left-radius:5vh 10.6vh;
       Box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4), 50px 50px 60px 10px #203863 inset;
@@ -108,7 +116,7 @@ body{
      grid-area: education_skill;
      Width:25vw; 
      Height:25vw;
-     Background-color: #bcd4e6; 
+     Background-color: #7da7c7; 
      Border-top-left-radius:5vh 10.6vh;
      Border-bottom-right-radius:5vh 10.6vh;
      Box-shadow: -5px 5px 5px 1px rgba(0,0,0,0.4), -50px 50px 60px 10px #203863 inset;
@@ -117,7 +125,7 @@ body{
 .projects { grid-area: projects;
   Width:25vw; 
   Height:25vw;
-  Background-color: #bcd4e6; 
+  Background-color: #7da7c7; 
   Border-top-left-radius:5vh 10.6vh;
   Border-bottom-right-radius:5vh 10.6vh;
   Box-shadow: 5px -5px 5px 1px rgba(0,0,0,0.4), 50px -50px 60px 10px #203863 inset;
@@ -127,7 +135,7 @@ body{
 .hobbies_interest { grid-area: hobbies_interest; 
   Width:60vw; 
   Height:25vw;
-  Background-color: #bcd4e6; 
+  Background-color: #7da7c7; 
   Border-top-right-radius:5vh 10.6vh;
   Border-top-left-radius:5vh 10.6vh;
   Border-bottom-right-radius:5vh 10.6vh;
@@ -174,7 +182,7 @@ object-fit: fill;
 .fac { grid-area: fac; 
   Width:25vw; 
   Height:25vw;
-  Background-color: #bcd4e6; 
+  Background-color: #7da7c7; 
   Border-top-right-radius:5vh 10.6vh;
   Border-bottom-left-radius:5vh 10.6vh;
   Box-shadow: -5px -5px 5px 1px rgba(0,0,0,0.4), -50px -50px 60px 10px #203863 inset;
@@ -186,7 +194,7 @@ object-fit: fill;
   padding:2vmax ;
   Width:25vw; 
   Height:21vw;
-  Background-color: #bcd4e6; 
+  Background-color: #7da7c7; 
   Border-top-right-radius:5vh 10.6vh;
   Border-top-left-radius:5vh 10.6vh;
   Border-bottom-right-radius:5vh 10.6vh;

@@ -22,3 +22,7 @@ function yourDayFunction() {
   document.getElementById("messageBox").innerHTML = output[yourNum].message ;
   document.getElementById("imageBox").src = output[yourNum].image.replace('90x90', '225x225') ;
 }
+
+  let todayDate;
+  todayDate =new Date().toISOString().substr(0, 10); 
+  document.getElementById("birthDate").value=todayDate;

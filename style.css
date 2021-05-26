@@ -8,7 +8,7 @@ body{
   flex-direction: column;
   background-color: #F3C7D4;
   height: 4vw; 
-  width: 100vw;   
+  width: 105vw;   
   }
 .logo{
   width: 4vw;
@@ -54,7 +54,7 @@ body{
 
 .web_image { grid-area: web_image;
 display: block; 
-width: 100vw;}
+width: 105vw;}
 
 .web_image>img {
   display: inline;

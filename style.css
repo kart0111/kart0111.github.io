@@ -173,34 +173,36 @@ body{
 }
 
 .carouselContainer{
+  display: block;
   justify-content: center;
   margin:auto;  
   text-align: center;
 }
 
 .hobbyTitle{
- 
+  display: inline;
   font-family: 'Spectral', serif;
   font-size: 2vw;
   font-weight: bolder;
-  width:100%;
+   width: 100%;
   text-align: center;
 }
 
 .imageframe{
+  display: inline;
 object-fit: fill;
 }
 
 .carouselShow{
-  display: flex;
+  display: inline-flex;
   width: 100%;
-  height: 40vh;
+  height: 20vw;
   text-align: center;
   justify-content: center;
 
 }
 #btnContainer{
-  display: block
+  display: inline-block
   width 50vw;
   height: fit-content;
   margin: auto;
@@ -245,7 +247,7 @@ object-fit: fill;
 
 .coding_day{
   display: inline;
-  border-radius:1vmax;
+  border-radius:1vW;
   height: 4vw;
   background-color: #F3C7D4;
   text-align: center;

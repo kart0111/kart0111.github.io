@@ -1,3 +1,30 @@
+
+document.getElementById("aboutME_btn").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert("Hello");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*slide Show Code*/
 var i = 0; 			
 var imageArr = [];	// Images Array

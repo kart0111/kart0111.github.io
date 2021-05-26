@@ -1,5 +1,6 @@
 body{
   background-color:#C75678;
+
 }
 
 .flex-container {
@@ -7,12 +8,11 @@ body{
   flex-direction: column;
   background-color: #F3C7D4;
   height: 4vw; 
-  width: 100vmax;   
-  
+  width: 100vw;   
   }
 .logo{
-  width: 4vmax;
-  height: 4vmax;
+  width: 4vw;
+  height: 4vw;
   border-radius:50%;
   object-fit: fill;
   margin-top: auto;
@@ -24,24 +24,23 @@ body{
 .flex-items:nth-child(1) {
   display: block;
   direction: rtl;
-  align-items:flex-end;
-
+  align-items:flex-start;
+  width: 100%;
   }
 
 .box {
-  display: flex;
-  width:20vmax;
+  display: inline-flex;
+  width:25vw;
   direction: ltr; /*left to right direction*/
   justify-content:space-between; /*end of flex eg. rightend*/
-  padding-right: 4vmax;
-
+  margin-right: 5vmax;
 }
 /*grid formating*/
 .grid-container {
   display: grid;
   grid-template-columns: 0.8fr 1fr 1fr;
   grid-template-rows: 0.8fr 1fr 1fr 1fr;
-  gap: 25px 15px;
+  gap: 5vw 5vw;
   
   width: 100vw;
   height: auto;
@@ -53,11 +52,14 @@ body{
     "fun_time hobbies_interest hobbies_interest";
 }
 
-.web_image { grid-area: web_image; }
+.web_image { grid-area: web_image;
+display: block; 
+width: 100vw;}
 
 .web_image>img {
+  display: inline;
   object-fit:contain;
-  width: 100vmax
+  width: 100%;
 }
 
 .personal_info { 
@@ -67,13 +69,13 @@ body{
     line-height: 0.6;
     font-family: 'Spectral', serif;
     align-content: center;
-    padding:3vh;
+    padding:2vh;
     text-align: center;
   }
   .me{
-      border-radius:50%;
-      width: 20vmax;
-      height:20vmax;
+      
+      width: 30vmax;
+      height:30vmax;
       object-fit: cover;
     }
     
@@ -136,11 +138,10 @@ body{
   display: block;
       width: 15vw;
       height:15vw;
-      
-     
-  
-
+ 
 }
+
+
 .education_skill {
      grid-area: education_skill;
      Width:25vw; 
@@ -173,36 +174,41 @@ body{
 }
 
 .carouselContainer{
-  display: block;
+
   justify-content: center;
   margin:auto;  
   text-align: center;
 }
 
 .hobbyTitle{
-  display: inline;
+ 
   font-family: 'Spectral', serif;
   font-size: 2vw;
   font-weight: bolder;
-   width: 100%;
+  width:100%;
   text-align: center;
 }
 
 .imageframe{
+
+  object-fit: fill;
   display: inline;
-object-fit: fill;
+  width:100%;
+ text-align: center;
+ 
+
 }
 
 .carouselShow{
-  display: inline-flex;
-  width: 100%;
+  display:inline-flex;
+  width: 30vw;
   height: 20vw;
   text-align: center;
   justify-content: center;
 
 }
 #btnContainer{
-  display: inline-block
+  display: block
   width 50vw;
   height: fit-content;
   margin: auto;
@@ -247,7 +253,7 @@ object-fit: fill;
 
 .coding_day{
   display: inline;
-  border-radius:1vW;
+  border-radius:1vmax;
   height: 4vw;
   background-color: #F3C7D4;
   text-align: center;

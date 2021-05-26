@@ -59,7 +59,7 @@
 
 .listStyle{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
+    //font-size: larger;
     padding-left: auto;
 }
 
@@ -90,7 +90,7 @@
       margin: auto;
       padding: 1vw;
       text-align: justify;
-      font-size:larger;
+      //font-size:larger;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
   }

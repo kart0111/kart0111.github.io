@@ -1,3 +1,7 @@
+document.getElementById("btnClick").addEventListener("click", yourDayFunction);
+
+
+
 function yourDayFunction() {
     let y = new Date().toISOString().substr(0, 10); 
   

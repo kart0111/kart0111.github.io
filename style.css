@@ -173,13 +173,14 @@ width: 105vw;}
 
 .hobbies_interest { grid-area: hobbies_interest; 
   Width:60vw; 
-  Height:25vw;
+  Height:26vw;
   Background-color: #7da7c7; 
   Border-top-right-radius:5vh 10.6vh;
   Border-top-left-radius:5vh 10.6vh;
   Border-bottom-right-radius:5vh 10.6vh;
   Border-bottom-left-radius:5vh 10.6vh;
   Box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4), 0px 0px 25px 25px #203863 inset;
+  
 }
 
 .carouselContainer{
@@ -240,7 +241,7 @@ width: 105vw;}
   display: block;
   padding:2vmax ;
   Width:25vw; 
-  Height:21vw;
+  Height:22vw;
   Background-color: #7da7c7; 
   Border-top-right-radius:5vh 10.6vh;
   Border-top-left-radius:5vh 10.6vh;

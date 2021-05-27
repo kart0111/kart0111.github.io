@@ -13,7 +13,7 @@
     <script src="script.js" defer></script>
 
 </head>
-<body>
+<body class="base">
     
     <nav class="flex-container">
         <div class="flex-items">
@@ -49,7 +49,7 @@
             <section id ="contact_me">
                 <div>
                 <img src="assets/location1.png" alt="Location"  class="contact_details" />  London</div>
-                <img src="assets/mail.png" alt="Email"  class="contact_details" /> <a href="mailto:posttokag@gmail.com?subject=Hello">Send mail</a>
+                <img src="assets/mail.png" alt="Email"  class="contact_details" /> <a href="mailto:posttokag@gmail.com?subject=Hello" style="color: black;">Send mail</a>
             </section>
         </div>
         
@@ -60,7 +60,7 @@
              </button>
         </div>
         <div class="education_skill">
-            <a href="edu_skill.html" target="_blank">
+            <a href="edu_skill.html" >
                 <img src="assets/Edu&skill.png" alt="Education & Skills"  class="icons" >
             </a>
         </div>
@@ -99,13 +99,17 @@
 
 
         <div class="fun_time">
-            <h1 class="fun_header">
-                Play Time
+            <div id="header_container"><h1 class="fun_header">
+                Fun Time
             </h1>
-            <p>
-            <a href="codingDay.html"  class="coding_day"> Know your coding day!</a> 
-            </p>
+            </div>
+            <div class="codingday_container">
+                <button class="coding_dayBtn">Know your coding Day!</button>
+            </div>
             
+            <div id="backgroudBtn">
+                <button class="btn">Light</button>
+            </div>
         </div>
       </div>
 

@@ -78,6 +78,8 @@ width: 105vw;}
     align-content: center;
     padding-left:2vh;
     text-align: center;
+    margin:auto;
+    margin-top: 0vw;
   }
   .me{
       
@@ -247,6 +249,7 @@ width: 105vw;}
   Box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.4), 0px 0px 25px 25px #203863 inset;
   text-align: center;
   justify-content: space-between;
+  margin:auto;
 }
 
 #header_container{

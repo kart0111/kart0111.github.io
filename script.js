@@ -11,16 +11,10 @@ function myFunction() {
 
 
 
-
-
-
-
-
-
 /*slide Show Code*/
 var i = 0; 			
 var imageArr = [];	// Images Array
-var time = 2000;	// Time Between Switch
+var time = 3000;	// Time Between Switch
 var continuousPlay =true;	 
 
 imageArr[0] = "assets/painting.gif";

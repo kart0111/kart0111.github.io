@@ -40,7 +40,7 @@ body{
   width:25vw;
   direction: ltr; /*left to right direction*/
   justify-content:space-between; /*end of flex eg. rightend*/
-  margin-right: 7vmax;
+  margin-right: 8vmax;
 }
 /*grid formating*/
 .grid-container {
